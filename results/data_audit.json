@@ -1,0 +1,37 @@
+{
+  "raw_california": 251881,
+  "raw_missing": {
+    "DISCOVERY_DOY": 0,
+    "FIRE_YEAR": 0,
+    "FOD_ID": 0,
+    "LATITUDE": 0,
+    "LONGITUDE": 0,
+    "NWCG_CAUSE_CLASSIFICATION": 0,
+    "NWCG_GENERAL_CAUSE": 0,
+    "STATE": 0
+  },
+  "raw_cause_classification": {
+    "Human": 183173,
+    "Missing data/not specified/undetermined": 38418,
+    "Natural": 30290
+  },
+  "duplicate_ids": 0,
+  "excluded_unknown_or_unrecognized_labels": 38418,
+  "excluded_invalid_features": 0,
+  "retained": 213463,
+  "retained_general_causes": {
+    "Missing data/not specified/undetermined": 56845,
+    "Equipment and vehicle use": 45660,
+    "Natural": 30290,
+    "Arson/incendiarism": 24412,
+    "Debris and open burning": 20861,
+    "Recreation and ceremony": 11453,
+    "Misuse of fire by a minor": 9316,
+    "Smoking": 8472,
+    "Power generation/transmission/distribution": 3677,
+    "Other causes": 784,
+    "Railroad operations and maintenance": 773,
+    "Fireworks": 645,
+    "Firearms and explosives use": 275
+  }
+}

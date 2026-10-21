@@ -1,0 +1,240 @@
+{
+  "Majority / Training": {
+    "accuracy": 0.857198210964485,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.461554510393009,
+    "natural_precision": 0.0,
+    "natural_recall": 0.0,
+    "natural_f1": 0.0,
+    "human_precision": 0.857198210964485,
+    "human_recall": 1.0,
+    "human_f1": 0.923109020786018,
+    "confusion_matrix": [
+      [
+        0,
+        25798
+      ],
+      [
+        0,
+        154858
+      ]
+    ],
+    "natural_roc_auc": 0.5,
+    "natural_average_precision": 0.14280178903551502
+  },
+  "Majority / Validation": {
+    "accuracy": 0.8290335440514836,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.4532631710051065,
+    "natural_precision": 0.0,
+    "natural_recall": 0.0,
+    "natural_f1": 0.0,
+    "human_precision": 0.8290335440514836,
+    "human_recall": 1.0,
+    "human_f1": 0.906526342010213,
+    "confusion_matrix": [
+      [
+        0,
+        3002
+      ],
+      [
+        0,
+        14557
+      ]
+    ],
+    "natural_roc_auc": 0.5,
+    "natural_average_precision": 0.17096645594851642
+  },
+  "Logistic: calendar only / unweighted / Training": {
+    "accuracy": 0.857198210964485,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.461554510393009,
+    "natural_precision": 0.0,
+    "natural_recall": 0.0,
+    "natural_f1": 0.0,
+    "human_precision": 0.857198210964485,
+    "human_recall": 1.0,
+    "human_f1": 0.923109020786018,
+    "confusion_matrix": [
+      [
+        0,
+        25798
+      ],
+      [
+        0,
+        154858
+      ]
+    ],
+    "natural_roc_auc": 0.688788983192684,
+    "natural_average_precision": 0.2236084890134364,
+    "cross_entropy": 0.37943767170452497
+  },
+  "Logistic: calendar only / unweighted / Validation": {
+    "accuracy": 0.8290335440514836,
+    "balanced_accuracy": 0.5,
+    "macro_f1": 0.4532631710051065,
+    "natural_precision": 0.0,
+    "natural_recall": 0.0,
+    "natural_f1": 0.0,
+    "human_precision": 0.8290335440514836,
+    "human_recall": 1.0,
+    "human_f1": 0.906526342010213,
+    "confusion_matrix": [
+      [
+        0,
+        3002
+      ],
+      [
+        0,
+        14557
+      ]
+    ],
+    "natural_roc_auc": 0.7202499059842269,
+    "natural_average_precision": 0.29234532874613034,
+    "cross_entropy": 0.41962756246150595
+  },
+  "Logistic: calendar + location / unweighted / Training": {
+    "accuracy": 0.8800704100611106,
+    "balanced_accuracy": 0.6339041338928889,
+    "macro_f1": 0.670606608587551,
+    "natural_precision": 0.6913671730270471,
+    "natural_recall": 0.2893247538568881,
+    "natural_f1": 0.4079357271683883,
+    "human_precision": 0.892064052749323,
+    "human_recall": 0.9784835139288897,
+    "human_f1": 0.9332774900067136,
+    "confusion_matrix": [
+      [
+        7464,
+        18334
+      ],
+      [
+        3332,
+        151526
+      ]
+    ],
+    "natural_roc_auc": 0.8611851723741828,
+    "natural_average_precision": 0.5555570640511027,
+    "cross_entropy": 0.2905041931845339
+  },
+  "Logistic: calendar + location / unweighted / Validation": {
+    "accuracy": 0.861267725952503,
+    "balanced_accuracy": 0.6372380515986755,
+    "macro_f1": 0.6718200776146612,
+    "natural_precision": 0.7327302631578947,
+    "natural_recall": 0.2968021319120586,
+    "natural_f1": 0.422475106685633,
+    "human_precision": 0.8708315486752738,
+    "human_recall": 0.9776739712852923,
+    "human_f1": 0.9211650485436894,
+    "confusion_matrix": [
+      [
+        891,
+        2111
+      ],
+      [
+        325,
+        14232
+      ]
+    ],
+    "natural_roc_auc": 0.8480809912761325,
+    "natural_average_precision": 0.5875203222831884,
+    "cross_entropy": 0.33187044912456415
+  },
+  "Logistic: calendar only / balanced / Training": {
+    "accuracy": 0.5452462137986006,
+    "balanced_accuracy": 0.6514290651481416,
+    "macro_f1": 0.49453391376208466,
+    "natural_precision": 0.21139743537219877,
+    "natural_recall": 0.8000620203116521,
+    "natural_f1": 0.33442973572921564,
+    "human_precision": 0.9378703926764635,
+    "human_recall": 0.5027961099846311,
+    "human_f1": 0.6546380917949537,
+    "confusion_matrix": [
+      [
+        20640,
+        5158
+      ],
+      [
+        76996,
+        77862
+      ]
+    ],
+    "natural_roc_auc": 0.6894942060166724,
+    "natural_average_precision": 0.223717377416495,
+    "cross_entropy": 0.6298133769290727
+  },
+  "Logistic: calendar only / balanced / Validation": {
+    "accuracy": 0.5863090153197791,
+    "balanced_accuracy": 0.6653561590251229,
+    "macro_f1": 0.5398568305634005,
+    "natural_precision": 0.26264201381153934,
+    "natural_recall": 0.7854763491005996,
+    "natural_f1": 0.39365609348914865,
+    "human_precision": 0.9249504719729635,
+    "human_recall": 0.5452359689496462,
+    "human_f1": 0.6860575676376524,
+    "confusion_matrix": [
+      [
+        2358,
+        644
+      ],
+      [
+        6620,
+        7937
+      ]
+    ],
+    "natural_roc_auc": 0.719503088710478,
+    "natural_average_precision": 0.2918156724407521,
+    "cross_entropy": 0.6050862572827215
+  },
+  "Logistic: calendar + location / balanced / Training": {
+    "accuracy": 0.7787507749535028,
+    "balanced_accuracy": 0.7815255869264677,
+    "macro_f1": 0.6805535347110858,
+    "natural_precision": 0.370447564721369,
+    "natural_recall": 0.7854097216838515,
+    "natural_f1": 0.5034412502795239,
+    "human_precision": 0.9560495395363607,
+    "human_recall": 0.777641452169084,
+    "human_f1": 0.8576658191426476,
+    "confusion_matrix": [
+      [
+        20262,
+        5536
+      ],
+      [
+        34434,
+        120424
+      ]
+    ],
+    "natural_roc_auc": 0.8632893533133658,
+    "natural_average_precision": 0.5544785734588729,
+    "cross_entropy": 0.464394525249005
+  },
+  "Logistic: calendar + location / balanced / Validation": {
+    "accuracy": 0.7787459422518367,
+    "balanced_accuracy": 0.7646267581819123,
+    "macro_f1": 0.6947217985312351,
+    "natural_precision": 0.41739943872778296,
+    "natural_recall": 0.7431712191872085,
+    "natural_f1": 0.5345633161614951,
+    "human_precision": 0.9368757163910267,
+    "human_recall": 0.786082297176616,
+    "human_f1": 0.854880280900975,
+    "confusion_matrix": [
+      [
+        2231,
+        771
+      ],
+      [
+        3114,
+        11443
+      ]
+    ],
+    "natural_roc_auc": 0.8483824092541268,
+    "natural_average_precision": 0.5836988431288265,
+    "cross_entropy": 0.46590628054779903
+  }
+}
